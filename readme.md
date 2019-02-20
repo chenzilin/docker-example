@@ -1,7 +1,7 @@
 Usage:
 
-	1. First Enter Container
-		sudo docker run -it docker-example:v1.0 /bin/bash
+	1. Run Container
+		sudo docker run -it --name docker-example_v1.0 docker-example:v1.0 /bin/bash
 
 	2. Enter Exited Container
 		sudo docker ps -a
@@ -28,7 +28,7 @@ Remeve Image:
 
 Run Container:
 
-	sudo docker-compose up -d
+	sudo docker run -it --name docker-example_v1.0 docker-example:v1.0 /bin/bash
 
 List Containers:
 

@@ -1,3 +1,3 @@
 docker-example:
   image: "docker-example:v1.0"
-  container_name: "docker-example"
+  container_name: "docker-example_v1.0"
