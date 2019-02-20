@@ -1,5 +1,7 @@
 FROM ubuntu:bionic
 
+COPY sources.list /etc/apt/
+
 RUN apt update && apt install -y tzdata \
     && rm -rf /var/lib/apt/lists/*
 
