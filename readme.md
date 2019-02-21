@@ -2,6 +2,7 @@ Usage:
 
 	1. Run Container
 		sudo docker run -it --name docker-example_v1.0 docker-example:v1.0 /bin/bash
+		sudo docker run -it --hostname yocto-build --name docker-example_v1.0 docker-example:v1.0 /bin/bash
 		sudo docker run -it --privileged=true --name docker-example_v1.0 docker-example:v1.0 /bin/bash
 
 	2. Enter Exited Container

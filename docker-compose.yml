@@ -3,3 +3,4 @@ docker-example:
   container_name: "docker-example_v1.0"
   restart: always
   privileged: true
+  hostname: yocto-build
